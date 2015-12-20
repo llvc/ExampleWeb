@@ -31,7 +31,6 @@
     // $user = "b313cd7a7c53ac";
     // $pwd = "ce8b4f97";
     // $db = "web-mysqldb";
-
     
     $host = "localhost";
     $user = "root";
