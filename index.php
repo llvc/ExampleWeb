@@ -27,15 +27,15 @@
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the Azure Portal.
     
-    // $host = "br-cdbr-azure-south-a.cloudapp.net:3306";
-    // $user = "b313cd7a7c53ac";
-    // $pwd = "ce8b4f97";
-    // $db = "web-mysqldb";
-    
-    $host = "localhost";
-    $user = "root";
-    $pwd = "";
+    $host = "br-cdbr-azure-south-a.cloudapp.net:3306";
+    $user = "b313cd7a7c53ac";
+    $pwd = "ce8b4f97";
     $db = "web-mysqldb";
+    
+    // $host = "localhost";
+    // $user = "root";
+    // $pwd = "";
+    // $db = "web-mysqldb";
 
     // Connect to database.
     try {
