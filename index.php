@@ -27,9 +27,9 @@
     // DB connection info
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the Azure Portal.
-    $host = "localhost";
-    $user = "root";
-    $pwd = "";
+    $host = "eu-cdbr-azure-west-d.cloudapp.net";
+    $user = "bd0b8e6a195269";
+    $pwd = "ef5599cf";
     $db = "webmysqldb";
     // Connect to database.
     try {
