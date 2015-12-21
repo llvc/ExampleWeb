@@ -30,7 +30,7 @@
     $host = "localhost";
     $user = "root";
     $pwd = "";
-    $db = "webappmysqlgroupdb";
+    $db = "webmysqldb";
     // Connect to database.
     try {
         $conn = new PDO( "mysql:host=$host;dbname=$db", $user, $pwd);
