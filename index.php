@@ -27,7 +27,9 @@
 
     $serverName = "adventuresqlserver.database.windows.net";
 
-    $connectionOptions = array("Database"=>"adventuresql");
+    $connectionOptions = array( "UID"=>"luka",
+                         "PWD"=>"Abcd123456",
+                         "Database"=>"AdventureWorks");
 
     /* Connect using Windows Authentication. */
 
