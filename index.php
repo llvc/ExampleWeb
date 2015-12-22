@@ -24,6 +24,22 @@
       <input type="submit" name="submit" value="Submit" />
 </form>
 <?php
+
+    $serverName = "adventuresqlserver.database.windows.net";
+
+    $connectionOptions = array("Database"=>"adventuresql");
+
+    /* Connect using Windows Authentication. */
+
+    $conn = sqlsrv_connect( $serverName, $connectionOptions);
+
+    if( $conn === false ) { 
+        echo "==connect error==";
+        die( FormatErrors( sqlsrv_errors() ) ); 
+    } else {
+        echo "==connect ok==";
+    }
+
     // DB connection info
     //TODO: Update the values for $host, $user, $pwd, and $db
     //using the values you retrieved earlier from the Azure Portal.
